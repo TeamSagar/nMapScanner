@@ -1,6 +1,6 @@
 import nmap
 def ns1():
-    ns= nmap.portscanner()
+    ns= nmap.PortScanner()
     print('Version: ' + ns.nmap_version())
     print('Basic Scan info: ' + ns.scaninfo())
     print('All hosts: ' + ns.all_hosts())
